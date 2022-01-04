@@ -24,6 +24,7 @@ sudo ./peer  / </br>
 --name "node-name"   / </br>
 --bootnodes /ip4/52.9.46.195/tcp/30333/p2p/12D3KooWLh7brV2vkqbGm3P2PiCd7Kc1aQxJ2187U64CBhgt4gc1
 
+
 <h2>CODE TEMPLATE STRUCTURE</h2>
 <b><h3>The template consists of 2 files</h3></b>
 <b><i>1.peer</i></b>
