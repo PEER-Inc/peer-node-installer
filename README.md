@@ -12,7 +12,16 @@ The codebase comes with an in-built binary which can be executed directly with t
 <b>RUN THE BELOW COMMAND TO CONNECT TO MAIN NETWORK</b>
 <br>
 
-sudo ./peer   --base-path /data/PeerDemo   --chain ./customSpecRaw.json   --port 30333   --ws-external   --rpc-external --rpc-cors all  --no-telemetry --validator   --rpc-methods Unsafe --name PeerDemo   --bootnodes /ip4/52.9.46.195/tcp/30333/p2p/12D3KooWLh7brV2vkqbGm3P2PiCd7Kc1aQxJ2187U64CBhgt4gc1
+sudo ./peer  / </br> --base-path  "path-to-store-db" / </br> 
+--chain ./customSpecRaw.json / </br> 
+--port 30333 / </br> 
+--ws-external / </br> 
+--rpc-external / </br>
+--rpc-cors all  --no-telemetry / </br>
+--validator   / </br>
+--rpc-methods Unsafe / </br>
+--name PeerDemo   / </br>
+--bootnodes /ip4/52.9.46.195/tcp/30333/p2p/12D3KooWLh7brV2vkqbGm3P2PiCd7Kc1aQxJ2187U64CBhgt4gc1
 
 <h2>CODE TEMPLATE STRUCTURE</h2>
 <b><h3>The template consists of 2 files</h3></b>
