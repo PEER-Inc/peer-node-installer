@@ -12,11 +12,11 @@ The codebase comes with an in-built binary which can be executed directly with t
 <b>RUN THE BELOW COMMAND TO CONNECT TO MAIN NETWORK</b>
 <br>
 
-sudo ./peer  \ </br>  
---base-path "path-to-store-db" \ </br>   
---chain ./customSpecRaw.json \ </br>   
---port 30333 \ </br>   
---ws-external \ </br>   
+sudo ./peer  \ </br> 
+--base-path "path-to-store-db" \ </br> 
+--chain ./customSpecRaw.json \ </br> 
+--port 30333 \ </br> 
+--ws-external \ </br> 
 --rpc-external \ </br> 
 --rpc-cors all  --no-telemetry  \ </br> 
 --rpc-methods Unsafe --name \ </br> 
