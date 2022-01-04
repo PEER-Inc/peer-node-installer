@@ -18,9 +18,11 @@ sudo ./peer  \ </br>
 --port 30333 \ </br> 
 --ws-external \ </br> 
 --rpc-external \ </br> 
---rpc-cors all  --no-telemetry  \ </br> 
---rpc-methods Unsafe --name \ </br> 
-"node-name"   --bootnodes /ip4/54.203.72.205/tcp/30333/p2p/12D3KooWENFuK8SzBoPkfmiVnaSB8wWbMhknxcNeBiCU98DJoXhU 
+--rpc-cors all  --no-telemetry  \ </br>
+--validator   / </br> 
+--rpc-methods Unsafe 
+--name "node-name"  / </br> 
+--bootnodes /ip4/54.203.72.205/tcp/30333/p2p/12D3KooWENFuK8SzBoPkfmiVnaSB8wWbMhknxcNeBiCU98DJoXhU 
 
 
 <h2>CODE TEMPLATE STRUCTURE</h2>
