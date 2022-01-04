@@ -12,15 +12,16 @@ The codebase comes with an in-built binary which can be executed directly with t
 <b>RUN THE BELOW COMMAND TO CONNECT TO MAIN NETWORK</b>
 <br>
 
-sudo ./peer  \ </br>
---base-path "path-to-store-db" \ </br>
---chain ./customSpecRaw.json \ </br>
---port 30333 \ </br> 
---ws-external  \ </br> 
---rpc-external \ </br>
+sudo ./peer  \ </br>  
+--base-path "path-to-store-db" \ </br>   
+--chain ./customSpecRaw.json \ </br>   
+--port 30333 \ </br>   
+--ws-external \ </br>   
+--rpc-external \ </br> 
 --rpc-cors all  --no-telemetry  \ </br> 
---rpc-methods Unsafe --name \ </br>
-"node-name"   --bootnodes /ip4/54.215.251.40/tcp/30333/p2p/12D3KooWPpyraXmyuPQaZSbfb3zRpcNerAyuvJ7q2jkzowxXr2HA
+--rpc-methods Unsafe --name \ </br> 
+"node-name"   --bootnodes /ip4/54.203.72.205/tcp/30333/p2p/12D3KooWENFuK8SzBoPkfmiVnaSB8wWbMhknxcNeBiCU98DJoXhU 
+
 
 <h2>CODE TEMPLATE STRUCTURE</h2>
 <b><h3>The template consists of 2 files</h3></b>
