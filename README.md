@@ -19,9 +19,9 @@ sudo ./peer  \ </br>
 --ws-external \ </br> 
 --rpc-external \ </br> 
 --rpc-cors all  --no-telemetry  \ </br>
---validator   / </br> 
---rpc-methods Unsafe / </br>
---name "node-name"  / </br> 
+--validator   \ </br> 
+--rpc-methods Unsafe \ </br>
+--name "node-name"  \ </br> 
 --bootnodes /ip4/54.203.72.205/tcp/30333/p2p/12D3KooWENFuK8SzBoPkfmiVnaSB8wWbMhknxcNeBiCU98DJoXhU 
 
 
