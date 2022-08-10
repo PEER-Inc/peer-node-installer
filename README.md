@@ -22,7 +22,7 @@ sudo ./peer  \ </br>
 --validator   \ </br>
 --rpc-methods Unsafe \ </br>
 --name "node-name"   \ </br>
---bootnodes /ip4/52.9.46.195/tcp/30333/p2p/12D3KooWLh7brV2vkqbGm3P2PiCd7Kc1aQxJ2187U64CBhgt4gc1
+--bootnodes /ip4/publicIP/tcp/30333/p2p/node_address
 
 
 <h2>CODE TEMPLATE STRUCTURE</h2>
